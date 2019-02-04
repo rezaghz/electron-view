@@ -1,0 +1,23 @@
+{
+  "name": "electron-view",
+  "version": "1.0.0",
+  "description": "Electron View Pass Webpage Like Laravel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezaghz/electron-view.git"
+  },
+  "keywords": [
+    "electron",
+    "view"
+  ],
+  "author": "\"Reza Ghasemzadeh <rezaghasemzadeh1@gmail.com> (http://rezaghz.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rezaghz/electron-view/issues"
+  },
+  "homepage": "https://github.com/rezaghz/electron-view#readme"
+}
