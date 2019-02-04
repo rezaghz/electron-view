@@ -1,6 +1,6 @@
 {
   "name": "electron-view",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Electron View Pass Webpage Like Laravel",
   "main": "index.js",
   "repository": {
