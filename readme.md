@@ -5,6 +5,7 @@ NPM package For Pass View Electron Web Page Easier and Faster Like Laravel Frame
 
 ## Installation
 
+
 install by NPM 
 
 ```bash
@@ -18,6 +19,7 @@ $ yarn add electron-view
 ```
 
 ## How To Use ? 
+
 
 Example For Es6
 
@@ -49,5 +51,17 @@ let mainWin = new BrowserWindow({});
 mainWin.loadURL(view("panel.dashboard.index"));
 ```
 
+Output String
+
+```javascript
+view("admin.dashboard.index");
+// file://E://myProject/views/admin/dashboard/index.html
+view("admin.dashboard.index","resources");
+// file://E://myProject/resources/admin/dashboard/index.html
+view("admin.dashboard.index","resources");
+// file://E://myProject/resources/admin/dashboard/index.html
+view("admin.dashboard.index","resources",".xml");
+// file://E://myProject/resources/admin/dashboard/index.xml
+```
 
 
